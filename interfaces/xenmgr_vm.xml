@@ -43,7 +43,6 @@
     <property name="notify" type="s" access="readwrite"/>
     <property name="hvm" type="b" access="readwrite"/>
     <property name="pae" type="b" access="readwrite"/>
-	<property name="acpi" type="b" access="readwrite"/>
     <property name="apic" type="b" access="readwrite"/>
     <property name="viridian" type="b" access="readwrite"/>
     <property name="hap" type="b" access="readwrite"/>
@@ -100,10 +99,6 @@
    
     <property name="provides-disk-backend" type="b" access="readwrite">
       <tp:docstring>Whether this domain is a storage backend and includes the xen blkback drivers.</tp:docstring>
-    </property>
-
-    <property name="provides-disk-backend" type="b" access="readwrite">
-      <tp:docstring>Whether this domain is a storage backend with the xen blkback drivers.</tp:docstring>
     </property>
  
     <property name="provides-network-backend" type="b" access="readwrite">
@@ -385,7 +380,6 @@
     <property name="notify" type="s" access="readwrite"/>
     <property name="hvm" type="b" access="readwrite"/>
     <property name="pae" type="b" access="readwrite"/>
-	<property name="acpi" type="b" access="readwrite"/>
     <property name="apic" type="b" access="readwrite"/>
     <property name="viridian" type="b" access="readwrite"/>
     <property name="cpuid" type="s" access="readwrite"><tp:docstring>Used to set/unset certain bits in response to CPUID instruction.</tp:docstring></property>
@@ -447,10 +441,6 @@
     
     <property name="provides-disk-backend" type="b" access="readwrite">
       <tp:docstring>Whether this domain is a storage backend and includes the xen blkback drivers.</tp:docstring>
-    </property>
-
-    <property name="provides-disk-backend" type="b" access="readwrite">
-      <tp:docstring>Whether this domain is a storage backend with the xen blkback drivers.</tp:docstring>
     </property>
 
     <property name="provides-network-backend" type="b" access="readwrite">
