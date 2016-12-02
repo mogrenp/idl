@@ -101,6 +101,10 @@
     <property name="provides-disk-backend" type="b" access="readwrite">
       <tp:docstring>Whether this domain is a storage backend and includes the xen blkback drivers.</tp:docstring>
     </property>
+
+    <property name="provides-disk-backend" type="b" access="readwrite">
+      <tp:docstring>Whether this domain is a storage backend with the xen blkback drivers.</tp:docstring>
+    </property>
  
     <property name="provides-network-backend" type="b" access="readwrite">
       <tp:docstring>Whether this domain is a networking backend and handles the physical NIC devices.</tp:docstring>
@@ -443,6 +447,10 @@
     
     <property name="provides-disk-backend" type="b" access="readwrite">
       <tp:docstring>Whether this domain is a storage backend and includes the xen blkback drivers.</tp:docstring>
+    </property>
+
+    <property name="provides-disk-backend" type="b" access="readwrite">
+      <tp:docstring>Whether this domain is a storage backend with the xen blkback drivers.</tp:docstring>
     </property>
 
     <property name="provides-network-backend" type="b" access="readwrite">
