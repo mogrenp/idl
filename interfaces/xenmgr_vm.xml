@@ -97,7 +97,15 @@
     <property name="keep-alive" type="b" access="readwrite">
       <tp:docstring>Automatically restart this VM if it shuts down or crashes.</tp:docstring>
     </property>
-    
+
+    <property name="provides-disk-backend" type="b" access="readwrite">
+      <tp:docstring>Whether this domain is a storage backend and contains the blkback driver.</tp:docstring>
+    </property>
+
+    <property name="provides-default-disk-backend" type="b" access="readwrite">
+      <tp:docstring>Whether this domain is the primary storage backend.</tp:docstring>
+    </property>
+
     <property name="provides-network-backend" type="b" access="readwrite">
       <tp:docstring>Whether this domain is a networking backend and handles the physical NIC devices.</tp:docstring>
     </property>
@@ -436,7 +444,15 @@
     <property name="keep-alive" type="b" access="readwrite">
       <tp:docstring>Automatically restart this VM if it shuts down or crashes.</tp:docstring>
     </property>
-    
+
+   <property name="provides-disk-backend" type="b" access="readwrite">
+      <tp:docstring>Whether this domain is a storage backend and contains the blkback driver.</tp:docstring>
+    </property>
+
+    <property name="provides-default-disk-backend" type="b" access="readwrite">
+      <tp:docstring>Whether this domain is the primary storage backend.</tp:docstring>
+    </property>
+
     <property name="provides-network-backend" type="b" access="readwrite">
       <tp:docstring>Whether this domain is a networking backend and handles the physical nic devices.</tp:docstring>
     </property>
